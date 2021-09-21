@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Ejercicio · Bootstrap</title>
+
+</head>
+<body>
+    <div class="container">
+    
+        <form class="card p-2 bg-light">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="nombre" class="form-label">Nombre de pila</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="" value="">
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="appelido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="" value="">
+                </div>
+
+
+                <div class="col-12 pt-2">
+                    <label for="username" class="form-label">Nombre de usuario</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" id="username" placeholder="Nombre de usuario">
+                    </div>
+                </div>
+
+                <div class="col-12 pt-2">
+                    <label for="email" class="form-label">Correo electrónico <span class="text-muted">(opcional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                </div>
+
+                <div class="col-12 pt-2">
+                    <label for="address" class="form-label">Habla a</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St">
+                </div>
+
+                <div class="col-12 pt-2">
+                    <label for="address2" class="form-label">Dirección 2 <span class="text-muted">(opcional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartamento o suite">
+                </div>
+
+                <div class="col-md-5 pt-2">
+                    <label for="pais" class="form-label">País</label>
+                    <br>
+                    <select class="custom-select">
+                        <option value="">Escoger...</option>
+                        <option>Estados Unidos</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4 pt-2">
+                    <label for="estado" class="form-label">Estado</label>
+                    <br>
+                    <select class="custom-select">
+                        <option value="">Escoger...</option>
+                        <option>New York</option>
+                        <option>Miami</option>
+                        <option>Orlando</option>
+                    </select>
+                </div>
+
+                <div class="col-md-3 pt-2">
+                    <label for="cp" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="misma-direccion">
+                <label class="form-check-label" for="misma-direccion">La dirección de envío es la misma que mi dirección de facturación</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="guardar-info">
+                <label class="form-check-label" for="guardar-info">Guarde esta información para la próxima vez</label>
+            </div>
+
+
+        </form>
+    </div>
+
+    <!-- Opcional: enlazando el JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* pagina de estilos responsive con mediaquery */
+/* -----------------------------aca empieza estilos para 320px ---------------------------- */
+@media (max-width:320px){
+
+/* estilo de fuente desde google */
+p {
+    font-family: 'Indie Flower', cursive;
+}
+
+div{
+    color: crimson;
+}
+
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+
+   }
+   
+/* ----------------------------aca termina estilos para 320px--------------------------------- */
+
+/* -----------------------------aca empieza estilos para 768px ---------------------------- */
+@media (min-width:768px){
+/* estilo de fuente desde google */
+p {
+    font-family: 'Indie Flower', cursive;
+    color: coral;
+}
+
+
+.fa{
+    color: darkmagenta;
+}
+.fas{
+    color: hotpink;
+}
+
+h1{
+    text-align: center;
+    color: chocolate;
+}
+   }
+
+/* ----------------------------aca termina estilos para 768px--------------------------------- */

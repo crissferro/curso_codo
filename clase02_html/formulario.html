@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilos_clase02.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h2>Formulario con Tabla</h2>
+    <p align="center">
+    <form action="http://cursophp.com.ar" method="POST" enctype="text/plain">
+        <table style="text-align: left; width: 243px; height: 144px;" border="1" cellpadding="2" cellspacing="2">
+            <tbody>
+                <tr>
+                    <td class="dato">Nombre:</td>
+                    <td><input  class="resultado" type="text" name="nombre" value="" maxlength="30" size="70"></td>
+                    <td><input type="checkbox" name="nombre" value=""></td>
+                </tr>
+                <tr>
+                    <td class="dato">Apellido:</td>
+                    <td><input class="resultado" type="text" name="apellido" value="" maxlength="30" size="70"></td>
+                    <td><input type="radio" name="apellido" value=""></td>
+                </tr>
+                <tr>
+                    <td class="dato">DNI:</td>
+                    <td><input class="resultado" type="text" name="dni" value="" maxlength="30" size="70"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="dato">Contraseña:</td>
+                    <td><input class="resultado" type="password" name="clave" value="" maxlength="8" size="70"></td>
+                    <td><select name="localidad" size="8" multiple>
+                            <option value="ituzaingo">Ituzaingo</option>
+                            <option value="moron">Moron</option>
+                            <option value="haedo">Haedo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="" value="Ingresar"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    </p>
+    <br>
+    <br>
+    <h2>Formulario sin Tabla</h2>
+    <br>
+    <form action="http://cursophp.com.ar" method="POST" enctype="text/plain">
+        <p align="center">
+            <label for="nombre">Nombre:</label> <input type="text" id="nombre">
+            <br><br>
+            <label for="apellido">Apellido:</label> <input type="text" id="apellido">
+            <br><br>
+            <label for="dni">DNI:</label> <input type="text" id="dni">
+            <br><br>
+            <label for="clave">Contraseña:</label> <input type="password" name="" id="clave">
+        </p>
+
+    </form>
+</body>
+
+</html>
