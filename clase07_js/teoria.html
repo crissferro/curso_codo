@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    console.log("Primera clase de JavaScript")
+    console.info("Segundo intento clase Javascript")
+    console.error("deberia tener icono color rojo")
+    console.warn("Ejemplo de mensaje de advertencia");
+// mensaje personalizado
+    console.log("%cMensaje de color verde y grande", "color: green; font-size: x-large");
+    // creo tabla desde consola
+console.table({ Nombre : "Norfi", Apellido : "Carrodeguas" });
+
+// tabla con columnas y encabezados
+var gente = [["Norfi", "Carrodeguas"], ["Pedro", "Perez"], ["Juan", "Lopez"]]
+console.table(gente);
+
+// tabla con cuatro columnas y encabezados
+let sitiosweb = [
+  {Nombre: "NorfiPC",
+    Autor: "Norfi Carrodeguas",
+    Enlace: "https://norfipc.com"},
+  {Nombre: "Otro sitio",
+    Autor: "Pedro Perez",
+    Enlace: "https://pedroperez.com"},
+  {Nombre: "Tercer sitio",
+    Autor: "Juan Lopez",
+    Enlace: "https://juanlopez.com"}
+];
+console.table(sitiosweb);
+
+</script>
+
+
+</head>
+<body>
+    
+
+
+</body>
+</html>
+
